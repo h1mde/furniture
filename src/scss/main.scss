@@ -1,3 +1,11 @@
+//0. Шрифт
+//@font-face {
+//}
+
+
+// 1. Шапка
+@use 'components/header';
+
 // ==== 1. Utils ====
 @use 'utils/variables';
 
