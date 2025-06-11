@@ -1,11 +1,31 @@
 .header{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+
+
   &__logo{
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 5px;
+    width: 30%;
 
     &__title{
       font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 34px;
+    }
+  }
+  &__nav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__link{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: var(--font-xs);
     }
   }
 }
