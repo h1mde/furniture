@@ -1,22 +1,34 @@
 :root{
-
+  //размеры шрифтов
   --font-xs:16px;
   --font-s:20px;
 
+  //отступы блоков
+  --padding-block: 30px 50px;
 
-  /**  Отступы  */
-  --gap-xl: 20px;
-  --gap-l: 15px;
 
-  --padding-block: 20px;
-  --padding-inline: 20px;
 
-  /**  Скругления углов  */
-  --border-radius-default: 20px;
 
-  /**  Основные цвета */
-  --main-color: #e3e3e3;
 
-  /**  Шрифты */
-  --font-family-title: "Open Sans";
+
+
+
+
+
+
+  ///**  Отступы  */
+  //--gap-xl: 20px;
+  //--gap-l: 15px;
+  //
+  //--padding-block: 20px;
+  //--padding-inline: 20px;
+  //
+  ///**  Скругления углов  */
+  //--border-radius-default: 20px;
+  //
+  ///**  Основные цвета */
+  //--main-color: #e3e3e3;
+  //
+  ///**  Шрифты */
+  //--font-family-title: "Open Sans";
 }
