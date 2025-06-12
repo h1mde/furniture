@@ -1,25 +1,11 @@
 // 1. Utils
 @use 'utils/variables';
 
-// 2. Base styles
+// 2. Base
 @use 'base/reset';
 @use 'base/typography';
-@use 'base/layout';
 
-// 3. components
+// 3. Components
+@use 'components/fill-button';
 @use 'components/header';
-
-*{
-  font-family: "Poppins", sans-serif;
-}
-
-// ==== 3. Layout ====
-//@use 'layout/container';
-
-// ==== 4. Components ====
-//@use 'components/button';
-//@use 'components/card';
-
-//body {
-  //background-color: var(--main-color);
-//}
+@use 'components/discover';

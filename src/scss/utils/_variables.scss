@@ -1,10 +1,22 @@
 :root{
-  //размеры шрифтов
-  --font-xs:16px;
-  --font-s:20px;
+  // размеры шрифтов
+  --font-logo: 34px;
+  --font-xs: 16px;
+  --font-s: 20px;
 
-  //отступы блоков
+  // отступы блоков
   --padding-block: 30px 50px;
+  --gap: 32px;
+
+  // кнопки
+  --padding-big-button: 25px 70px;
+  --padding-small-button: 12px 60px;
+
+  // цвета
+  --ocher:#b88e2f;
+  --beige:#fff3e3;
+
+
 
 
 

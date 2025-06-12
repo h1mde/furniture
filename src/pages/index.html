@@ -9,9 +9,20 @@
     <title>Furniture</title>
 </head>
 <body>
-
 @@include('../components/_header.html')
-
+<main>
+    <section class="discover">
+        <div class="discover__block">
+            <span class="discover___block__notice">New Arrival</span>
+            <h1 class="discover__block__title">Discover Our  New Collection</h1>
+            <p class="discover__block__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            @@include('./_fill-button.html',{
+            "class": "discover__block__button",
+            "text": "BUY NOW",
+            })
+        </div>
+    </section>
+</main>
 <!--<h1>Карточки</h1>-->
 <!--@@include('../components/_card.html', {-->
 <!--"img": "./assets/images/cat1",-->
