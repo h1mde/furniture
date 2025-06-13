@@ -1,8 +1,9 @@
-// шапка сайта
 .header{
   display: flex;
   justify-content: space-between;
   padding: var(--padding-block);
+  align-items: center;
+  height: 4vh;
 
   // логотип
   &__logo{
@@ -10,6 +11,11 @@
     align-items: start;
     gap: 5px;
     width: 15%;
+    &__title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: var(--font-logo);
+    }
   }
 
   // навигация

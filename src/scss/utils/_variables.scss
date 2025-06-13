@@ -3,18 +3,28 @@
   --font-logo: 34px;
   --font-xs: 16px;
   --font-s: 20px;
+  --font-h1:52px;
 
   // отступы блоков
   --padding-block: 30px 50px;
-  --gap: 32px;
+  --padding-s:16px;
+  --padding-m:32px;
 
-  // кнопки
-  --padding-big-button: 25px 70px;
-  --padding-small-button: 12px 60px;
+  --gap-xs: 8px;
+  --gap-s: 16px;
+  --gap-m: 32px;
+  --gap-l: 46px;
+
 
   // цвета
-  --ocher:#b88e2f;
-  --beige:#fff3e3;
+  --color-ocher:#b88e2f;
+  --color-beige:#fff3e3;
+  --color-dark-gray:#3a3a3a;
+  --color-gray:#616161;
+  --color-light-gray:#9f9f9f;
+
+  //углы
+  --border-radius:10px;
 
 
 

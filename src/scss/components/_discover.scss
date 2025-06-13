@@ -1,0 +1,23 @@
+.discover{
+  background-image: url("../images/discover-background.webp");
+  background-size: cover;
+  background-position:center;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: var(--padding-block);
+  &__block{
+    background-color: var(--color-beige);
+    padding: var(--padding-m);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-s);
+    align-items: start;
+    width: 40%;
+    &__button{
+      margin-top: 30px;
+    }
+  }
+}

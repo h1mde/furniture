@@ -3,8 +3,26 @@
   font-size: var(--font-xs);
 }
 
-.header__logo__title {
-  font-family: "Montserrat", sans-serif;
+h1{
+  font-size: var(--font-h1);
+  color: var(--color-ocher);
+  font-weight: 800;
+}
+
+.description{
+  color: var(--color-light-gray);
   font-weight: bold;
-  font-size: var(--font-logo);
+}
+.info{
+  color: var(--color-gray);
+  font-weight: bold;
+}
+.comment{
+  color: var(--color-dark-gray);
+  font-weight: bold;
+}
+.notice{
+  color: var(--color-dark-gray);
+  letter-spacing:3px;
+  font-weight: bold;
 }
