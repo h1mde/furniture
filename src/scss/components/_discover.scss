@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: end;
   padding: var(--padding-block);
+  margin-bottom: 26px;
   &__block{
     background-color: var(--color-beige);
     padding: var(--padding-m);
@@ -15,7 +16,7 @@
     flex-direction: column;
     gap: var(--gap-s);
     align-items: start;
-    width: 40%;
+    width: 650px;
     &__button{
       margin-top: 30px;
     }

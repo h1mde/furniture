@@ -8,6 +8,16 @@ h1{
   color: var(--color-ocher);
   font-weight: 800;
 }
+h2{
+  font-size: var(--font-h2);
+  color: var(--color-dark-gray);
+}
+h3{
+  color: var(--color-dark-gray);
+  font-size: var(--font-h3);
+}
+
+
 
 .description{
   color: var(--color-light-gray);
@@ -15,14 +25,14 @@ h1{
 }
 .info{
   color: var(--color-gray);
-  font-weight: bold;
+  font-weight: 600;
 }
 .comment{
   color: var(--color-dark-gray);
-  font-weight: bold;
+  font-weight: 600;
 }
 .notice{
   color: var(--color-dark-gray);
   letter-spacing:3px;
-  font-weight: bold;
+  font-weight: 600;
 }

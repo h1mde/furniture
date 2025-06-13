@@ -5,11 +5,131 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="./assets/css/main.css"/>
     <title>Furniture</title>
 </head>
 <body>
-@@include('../components/_header.html')
+@@include("../components/_header.html")
 <main>
-    @@include('../components/_discover.html')
+    <section class="discover">
+        <div class="discover__block">
+            <span class="discover__block__notice notice">New Arrival</span>
+            <h1 class="discover__block__title">Discover Our<br>New Collection</h1>
+            <p class="discover__block__description comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            @@include('./_button.html',{
+            "class": "discover__block__button big__button fill__button",
+            "text": "BUY NOW",
+            })
+        </div>
+    </section>
+    <section class="range">
+        <h2 class="range__title">Browse The Range</h2>
+        <p class="range__text info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="range__container">
+            @@include("./_room-card.html",{
+            "class":"range",
+            "img":"./assets/images/range-01",
+            "alt":"Кухня",
+            "title":"Dining"
+            })
+            @@include("./_room-card.html",{
+            "class":"range",
+            "img":"./assets/images/range-02",
+            "alt":"Гостинная",
+            "title":"Living"
+            })
+            @@include("./_room-card.html",{
+            "class":"range",
+            "img":"./assets/images/range-03",
+            "alt":"Спальня",
+            "title":"Bedroom"
+            })
+        </div>
+    </section>
+    <section class="products">
+        <h2 class="products__title">Our Products</h2>
+        <div class="products__container">
+            @@include("./_product-card.html", {
+            "alt":"поставьте пять пж",
+            "mark":"sale",
+            "markText":"-30%",
+            "img":"./assets/images/product-01",
+            "title":"Syltherine",
+            "info":"Stylish cafe chair",
+            "current":"Rp 2.500.000",
+            "past":"Rp 3.500.000",
+            })
+            @@include("./_product-card.html", {
+            "alt":"поставьте пять пж",
+            "mark":"none",
+            "markText":"",
+            "img":"./assets/images/product-02",
+            "title":"Leviosa",
+            "info":"Stylish cafe chair",
+            "current":"Rp 2.500.000",
+            "past":"",
+            })
+            @@include("./_product-card.html", {
+            "alt":"поставьте пять пж",
+            "mark":"sale",
+            "markText":"-50%",
+            "img":"./assets/images/product-03",
+            "title":"Lolito",
+            "info":"Luxury big sofa",
+            "current":"Rp 7.000.000",
+            "past":"Rp 14.000.000",
+            })
+            @@include("./_product-card.html", {
+            "alt":"поставьте пять пж",
+            "mark":"new",
+            "markText":"New",
+            "img":"./assets/images/product-04",
+            "title":"Respira",
+            "info":"Outdoor bar table and stool",
+            "current":"Rp 500.000",
+            "past":"",
+            })
+            @@include("./_product-card.html", {
+            "alt":"поставьте пять пж",
+            "mark":"none",
+            "markText":"",
+            "img":"./assets/images/product-05",
+            "title":"Grifo",
+            "info":"Night lamp",
+            "current":"Rp 1.500.000",
+            "past":"",
+            })
+            @@include("./_product-card.html", {
+            "alt":"поставьте пять пж",
+            "mark":"new",
+            "markText":"New",
+            "img":"./assets/images/product-06",
+            "title":"Muggo",
+            "info":"Small mug",
+            "current":"Rp 150.000",
+            "past":"",
+            })
+            @@include("./_product-card.html", {
+            "alt":"поставьте пять пж",
+            "mark":"sale",
+            "markText":"-50%",
+            "img":"./assets/images/product-07",
+            "title":"Pingky",
+            "info":"Cute bed set",
+            "current":"Rp 7.000.000",
+            "past":"Rp 14.000.000",
+            })
+            @@include("./_product-card.html", {
+            "alt":"поставьте пять пж",
+            "mark":"new",
+            "markText":"New",
+            "img":"./assets/images/product-08",
+            "title":"Potty",
+            "info":"Minimalist flower pot",
+            "current":"Rp 500.000",
+            "past":"",
+            })
+        </div>
+        <button class="ocher__border__button small__button">Show More</button>
+    </section>
 </main>

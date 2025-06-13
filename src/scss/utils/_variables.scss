@@ -4,9 +4,12 @@
   --font-xs: 16px;
   --font-s: 20px;
   --font-h1:52px;
+  --font-h2:32px;
+  --font-h3:24px;
 
   // отступы блоков
   --padding-block: 30px 50px;
+  --padding-container: 30px 126px;
   --padding-s:16px;
   --padding-m:32px;
 
@@ -15,13 +18,13 @@
   --gap-m: 32px;
   --gap-l: 46px;
 
-
   // цвета
   --color-ocher:#b88e2f;
   --color-beige:#fff3e3;
   --color-dark-gray:#3a3a3a;
-  --color-gray:#616161;
+  --color-gray:#666666;
   --color-light-gray:#9f9f9f;
+  --color-lighter-gray: #f4f5f7;
 
   //углы
   --border-radius:10px;
