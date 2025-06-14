@@ -1,8 +1,18 @@
 .big__button{
   padding: 25px 70px;
 }
-.small__button{
+.long__button{
   padding: 12px 60px;
+}
+.small__button{
+  padding: 12px 32px;
+}
+.square__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
 }
 .fill__button{
   border: none;
