@@ -1,0 +1,22 @@
+.aboutSection{
+  background-color: var(--color-light-beige);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+  padding: var(--padding-xxl) 0;
+}
+.about{
+  display: flex;
+  align-items: center;
+  gap: var(--gap-xs);
+  &__block{
+    display: grid;
+    gap: var(--gap-xs);
+    &__text{
+      font-size: var(--font-s);
+      color: var(--color-light-gray);
+      font-weight: 600;
+    }
+  }
+}
