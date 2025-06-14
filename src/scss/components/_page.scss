@@ -1,0 +1,19 @@
+.page{
+  background-image: url("../images/page-bg.webp");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-xxl) 0;
+  gap: var(--gap-xs);
+  &__block{
+    display: flex;
+    align-items: center;
+    gap: var(--gap-xs);
+    &__text1{
+      font-weight: 600;
+
+    }
+  }
+}
