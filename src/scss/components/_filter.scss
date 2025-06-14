@@ -1,0 +1,21 @@
+.filter{
+  background-color: var(--color-beige);
+  display: flex;
+  justify-content: center;
+  gap: 348px;
+  padding: var(--padding-container);
+  &__block{
+    display: flex;
+    align-items: center;
+    gap: var(--gap-m);
+    &__text1{
+      font-size: var(--font-s);
+    }
+    &__text3{
+      font-size: var(--font-s);
+      font-weight: 400;
+      background-color: white;
+      padding: var(--padding-s);
+    }
+  }
+}
