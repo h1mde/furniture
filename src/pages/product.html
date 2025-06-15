@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+    <title>Product</title>
+</head>
+<body>
+@@include("./_header.html")
+<section class="path">
+    <span class="path__text1 description">Home</span>
+    <img src="./assets/images/arrow1.webp" alt="sdfsdf" class="path__arrow">
+    <span class="path__text1 description">Shop</span>
+    <img  src="./assets/images/arrow1.webp" alt="sdfsf" class="path__arrow">
+    <img src="./assets/images/line.webp" alt="sfsfd" class="path__line">
+    <span class="path__text2">Asgaard sofa</span>
+</section>
+
+
+<section class="product">
+    <div class="product__images">
+        <img src="./assets/images/product-09.webp" alt="" class="product__images__img">
+        <img src="./assets/images/product-13.webp" alt="" class="product__images__img">
+        <img src="./assets/images/product-11.webp" alt="" class="product__images__img">
+        <img src="./assets/images/product-12.webp" alt="" class="product__images__img">
+    </div>
+    <img src="./assets/images/product-10.webp" alt="" class="product__img">
+    <div class="product__container">
+        <h1 class="product__container__title">Asgaard sofa</h1>
+        <h3 class="product__container__price">Rs. 250,000.00</h3>
+        <div class="product__container__review">
+            <img src="./assets/images/stars.webp" alt="" class="product__container__review__stars">
+            <img src="./assets/images/line.webp" alt="" class="product__container__review__line">
+            <span class="product__container__review__text">5 Customer Review</span>
+        </div>
+        <p class="product__container__description">
+            Setting the bar as one of the loudest speakers in
+            its class, the Kilburn is a compact, stout-hearted
+            hero with a well-balanced audio which boasts a clear
+            midrange and extended highs for a sound.
+        </p>
+        <span class="product__container__item">Size</span>
+        <div class="product__container__block">
+            <button class="product__container__block__button1 fill__button">L</button>
+            <button class="product__container__block__button1 light__fill__button">XL</button>
+            <button class="product__container__block__button1 light__fill__button">XS</button>
+        </div>
+        <span class="product__container__item">Color</span>
+        <div class="product__container__block">
+            <button class="product__container__block__button2 purple__circle"></button>
+            <button class="product__container__block__button2 black__circle"></button>
+            <button class="product__container__block__button2 ocher__circle"></button>
+        </div>
+        <div class="product__container__buttons">
+            <div class="product__container__buttons__block">
+                <button class="product__container__buttons__block__button">-</button>
+                <span class="product__container__buttons__block__number">1</span>
+                <button class="product__container__buttons__block__button">+</button>
+            </div>
+            <button class="product__container__buttons__button">Add To Cart</button>
+            <button class="product__container__buttons__button">+ Compare</button>
+        </div>
+        <img src="./assets/images/long-line.webp" alt="" class="product__container__line">
+        <div class="product__container__info">
+            <span class="product__container__info__text">SKU  :  SS001</span>
+            <span class="product__container__info__text">Category  :  Sofas</span>
+            <span class="product__container__info__text">Tags :  Sofa, Chair, Home, Shop</span>
+            <span class="product__container__info__text">
+                Share  :
+                <img src="./assets/images/facebook.webp" alt="" class="product__container__info__text__img">
+                <img src="./assets/images/in.webp" alt="" class="product__container__info__text__img">
+                <img src="./assets/images/twitter.webp" alt="" class="product__container__info__text__img">
+            </span>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="products">
+    <h2 class="products__title">Our Products</h2>
+    <div class="products__container">
+        @@include("./_product-card.html", {
+        "alt":"поставьте пять пж",
+        "mark":"sale",
+        "markText":"-30%",
+        "img":"./assets/images/product-01",
+        "title":"Syltherine",
+        "info":"Stylish cafe chair",
+        "current":"Rp 2.500.000",
+        "past":"Rp 3.500.000",
+        })
+        @@include("./_product-card.html", {
+        "alt":"поставьте пять пж",
+        "mark":"none",
+        "markText":"",
+        "img":"./assets/images/product-02",
+        "title":"Leviosa",
+        "info":"Stylish cafe chair",
+        "current":"Rp 2.500.000",
+        "past":"",
+        })
+        @@include("./_product-card.html", {
+        "alt":"поставьте пять пж",
+        "mark":"sale",
+        "markText":"-50%",
+        "img":"./assets/images/product-03",
+        "title":"Lolito",
+        "info":"Luxury big sofa",
+        "current":"Rp 7.000.000",
+        "past":"Rp 14.000.000",
+        })
+        @@include("./_product-card.html", {
+        "alt":"поставьте пять пж",
+        "mark":"new",
+        "markText":"New",
+        "img":"./assets/images/product-04",
+        "title":"Respira",
+        "info":"Outdoor bar table and stool",
+        "current":"Rp 500.000",
+        "past":"",
+        })
+        @@include("./_product-card.html", {
+        "alt":"поставьте пять пж",
+        "mark":"none",
+        "markText":"",
+        "img":"./assets/images/product-05",
+        "title":"Grifo",
+        "info":"Night lamp",
+        "current":"Rp 1.500.000",
+        "past":"",
+        })
+        @@include("./_product-card.html", {
+        "alt":"поставьте пять пж",
+        "mark":"new",
+        "markText":"New",
+        "img":"./assets/images/product-06",
+        "title":"Muggo",
+        "info":"Small mug",
+        "current":"Rp 150.000",
+        "past":"",
+        })
+        @@include("./_product-card.html", {
+        "alt":"поставьте пять пж",
+        "mark":"sale",
+        "markText":"-50%",
+        "img":"./assets/images/product-07",
+        "title":"Pingky",
+        "info":"Cute bed set",
+        "current":"Rp 7.000.000",
+        "past":"Rp 14.000.000",
+        })
+        @@include("./_product-card.html", {
+        "alt":"поставьте пять пж",
+        "mark":"new",
+        "markText":"New",
+        "img":"./assets/images/product-08",
+        "title":"Potty",
+        "info":"Minimalist flower pot",
+        "current":"Rp 500.000",
+        "past":"",
+        })
+    </div>
+    <button class="ocher__border__button long__button">Show More</button>
+</section>
+@@include("./_footer.html")
+</body>
+</html>

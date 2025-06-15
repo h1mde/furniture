@@ -1,0 +1,10 @@
+.path{
+  background-color: var(--color-beige);
+  display: flex;
+  padding: var(--padding-container);
+  align-items: center;
+  gap: var(--gap-m);
+  &__text1{
+    font-weight: 400;
+  }
+}

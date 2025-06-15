@@ -1,11 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Furniture</title>
+    <title>Product</title>
 </head>
 <body>
 <header class="header">
@@ -26,39 +26,80 @@
         <img src="./assets/images/shopping-cart-icon.webp" alt="Корзина" class="header__action__button">
     </div>
 </header>
-<main>
-    <section class="discover">
-        <div class="discover__block">
-            <span class="discover__block__notice notice">New Arrival</span>
-            <h1 class="discover__block__title">Discover Our<br>New Collection</h1>
-            <p class="discover__block__description comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-            <button class="discover__block__button big__button fill__button">
-    BUY NOW
-</button>
+<section class="path">
+    <span class="path__text1 description">Home</span>
+    <img src="./assets/images/arrow1.webp" alt="sdfsdf" class="path__arrow">
+    <span class="path__text1 description">Shop</span>
+    <img src="./assets/images/arrow1.webp" alt="sdfsf" class="path__arrow">
+    <img src="./assets/images/line.webp" alt="sfsfd" class="path__line">
+    <span class="path__text2">Asgaard sofa</span>
+</section>
+
+
+<section class="product">
+    <div class="product__images">
+        <img src="./assets/images/product-09.webp" alt="" class="product__images__img">
+        <img src="./assets/images/product-13.webp" alt="" class="product__images__img">
+        <img src="./assets/images/product-11.webp" alt="" class="product__images__img">
+        <img src="./assets/images/product-12.webp" alt="" class="product__images__img">
+    </div>
+    <img src="./assets/images/product-10.webp" alt="" class="product__img">
+    <div class="product__container">
+        <h1 class="product__container__title">Asgaard sofa</h1>
+        <h3 class="product__container__price">Rs. 250,000.00</h3>
+        <div class="product__container__review">
+            <img src="./assets/images/stars.webp" alt="" class="product__container__review__stars">
+            <img src="./assets/images/line.webp" alt="" class="product__container__review__line">
+            <span class="product__container__review__text">5 Customer Review</span>
         </div>
-    </section>
-    <section class="range">
-        <h2 class="range__title">Browse The Range</h2>
-        <p class="range__text info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="range__container">
-            <div class="range__container__block">
-    <img src="./assets/images/range-01.webp" alt="Кухня" class="range__container__block__img">
-    <h3 class="range__container__block__title">Dining</h3>
-</div>
-            <div class="range__container__block">
-    <img src="./assets/images/range-02.webp" alt="Гостинная" class="range__container__block__img">
-    <h3 class="range__container__block__title">Living</h3>
-</div>
-            <div class="range__container__block">
-    <img src="./assets/images/range-03.webp" alt="Спальня" class="range__container__block__img">
-    <h3 class="range__container__block__title">Bedroom</h3>
-</div>
+        <p class="product__container__description">
+            Setting the bar as one of the loudest speakers in
+            its class, the Kilburn is a compact, stout-hearted
+            hero with a well-balanced audio which boasts a clear
+            midrange and extended highs for a sound.
+        </p>
+        <span class="product__container__item">Size</span>
+        <div class="product__container__block">
+            <button class="product__container__block__button1 fill__button">L</button>
+            <button class="product__container__block__button1 light__fill__button">XL</button>
+            <button class="product__container__block__button1 light__fill__button">XS</button>
         </div>
-    </section>
-    <section class="products">
-        <h2 class="products__title">Our Products</h2>
-        <div class="products__container">
-            <a href="/product.html" class="product__card">
+        <span class="product__container__item">Color</span>
+        <div class="product__container__block">
+            <button class="product__container__block__button2 purple__circle"></button>
+            <button class="product__container__block__button2 black__circle"></button>
+            <button class="product__container__block__button2 ocher__circle"></button>
+        </div>
+        <div class="product__container__buttons">
+            <div class="product__container__buttons__block">
+                <button class="product__container__buttons__block__button">-</button>
+                <span class="product__container__buttons__block__number">1</span>
+                <button class="product__container__buttons__block__button">+</button>
+            </div>
+            <button class="product__container__buttons__button">Add To Cart</button>
+            <button class="product__container__buttons__button">+ Compare</button>
+        </div>
+        <img src="./assets/images/long-line.webp" alt="" class="product__container__line">
+        <div class="product__container__info">
+            <span class="product__container__info__text">SKU  :  SS001</span>
+            <span class="product__container__info__text">Category  :  Sofas</span>
+            <span class="product__container__info__text">Tags :  Sofa, Chair, Home, Shop</span>
+            <span class="product__container__info__text">
+                Share  :
+                <img src="./assets/images/facebook.webp" alt="" class="product__container__info__text__img">
+                <img src="./assets/images/in.webp" alt="" class="product__container__info__text__img">
+                <img src="./assets/images/twitter.webp" alt="" class="product__container__info__text__img">
+            </span>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="products">
+    <h2 class="products__title">Our Products</h2>
+    <div class="products__container">
+        <a href="/product.html" class="product__card">
     <span class="sale product__card__mark">-30%</span>
     <img src="./assets/images/product-01.webp" alt="поставьте пять пж" class="product__card__img">
     <div class="product__card__block">
@@ -70,7 +111,7 @@
         </div>
     </div>
 </a>
-            <a href="/product.html" class="product__card">
+        <a href="/product.html" class="product__card">
     <span class="none product__card__mark"></span>
     <img src="./assets/images/product-02.webp" alt="поставьте пять пж" class="product__card__img">
     <div class="product__card__block">
@@ -82,7 +123,7 @@
         </div>
     </div>
 </a>
-            <a href="/product.html" class="product__card">
+        <a href="/product.html" class="product__card">
     <span class="sale product__card__mark">-50%</span>
     <img src="./assets/images/product-03.webp" alt="поставьте пять пж" class="product__card__img">
     <div class="product__card__block">
@@ -94,7 +135,7 @@
         </div>
     </div>
 </a>
-            <a href="/product.html" class="product__card">
+        <a href="/product.html" class="product__card">
     <span class="new product__card__mark">New</span>
     <img src="./assets/images/product-04.webp" alt="поставьте пять пж" class="product__card__img">
     <div class="product__card__block">
@@ -106,7 +147,7 @@
         </div>
     </div>
 </a>
-            <a href="/product.html" class="product__card">
+        <a href="/product.html" class="product__card">
     <span class="none product__card__mark"></span>
     <img src="./assets/images/product-05.webp" alt="поставьте пять пж" class="product__card__img">
     <div class="product__card__block">
@@ -118,7 +159,7 @@
         </div>
     </div>
 </a>
-            <a href="/product.html" class="product__card">
+        <a href="/product.html" class="product__card">
     <span class="new product__card__mark">New</span>
     <img src="./assets/images/product-06.webp" alt="поставьте пять пж" class="product__card__img">
     <div class="product__card__block">
@@ -130,7 +171,7 @@
         </div>
     </div>
 </a>
-            <a href="/product.html" class="product__card">
+        <a href="/product.html" class="product__card">
     <span class="sale product__card__mark">-50%</span>
     <img src="./assets/images/product-07.webp" alt="поставьте пять пж" class="product__card__img">
     <div class="product__card__block">
@@ -142,7 +183,7 @@
         </div>
     </div>
 </a>
-            <a href="/product.html" class="product__card">
+        <a href="/product.html" class="product__card">
     <span class="new product__card__mark">New</span>
     <img src="./assets/images/product-08.webp" alt="поставьте пять пж" class="product__card__img">
     <div class="product__card__block">
@@ -154,39 +195,9 @@
         </div>
     </div>
 </a>
-        </div>
-        <button class="ocher__border__button long__button">Show More</button>
-    </section>
-    <section class="inspiration">
-        <div class="inspiration__about">
-            <h2 class="inspiration__about__title">50+ Beautiful rooms
-                inspiration</h2>
-            <p class="inspiration__about__title info">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
-            <button class="fill__button small__button inspiration__about__button">Explore More</button>
-        </div>
-        <div class="inspiration__room">
-            <div class="inspiration__room__block">
-                <div class="inspiration__room__block__inner">
-                    <span class="inspiration__room__block__inner__text info">01 — Bed Room</span>
-                    <h3 class="inspiration__room__block__inner__title">Inner Peace</h3>
-                </div>
-                <button class="inspiration__room__block__button fill__button square__button">
-                    <img src="./assets/images/arrow.webp" alt="" class="inspiration__room__block__button__arrow">
-                </button>
-            </div>
-            <img src="./assets/images/inspiration-01.webp" alt="" class="inspiration__room__block__img">
-        </div>
-        <div class="inspiration__other">
-            <img src="./assets/images/inspiration-02.webp" alt="" class="inspiration__other__img">
-            <img src="./assets/images/indicator.webp" alt="" class="inspiration__other__indicator">
-        </div>
-    </section>
-    <section class="share">
-        <span class="share__text info">Share your setup with</span>
-        <h2 class="share__title">#FuniroFurniture</h2>
-        <img src="./assets/images/share.webp" alt="" class="share__img">
-    </section>
-</main>
+    </div>
+    <button class="ocher__border__button long__button">Show More</button>
+</section>
 <footer class="footer">
     <div class="footer__links">
         <div class="footer__links__block">
@@ -227,4 +238,5 @@
         2023 furino. All rights reverved
     </span>
 </footer>
-</body></html>
+</body>
+</html>
