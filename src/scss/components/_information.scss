@@ -1,0 +1,25 @@
+.information{
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-l);
+  align-items: center;
+  padding: var(--padding-l) 0;
+  border-top: rgba(0, 0, 0, 0.17) solid 1px;
+  border-bottom: rgba(0, 0, 0, 0.17) solid 1px;
+  &__titles{
+    display: flex;
+    gap: var(--gap-l);
+    &__inactiveTitle{
+      color: var(--color-light-gray);
+      font-weight: 400;
+    }
+  }
+  &__text{
+    width: 1026px;
+    color: var(--color-light-gray);
+  }
+  &__images{
+    display: flex;
+    gap: var(--gap-xl);
+  }
+}
