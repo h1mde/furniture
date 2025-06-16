@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+    <title>Product Comparison</title>
+</head>
+<body>
+@@include("./_header.html")
+@@include("./_page.html",{
+"title":"Cart",
+"text":"Cart",
+})
+<main>
+    <section class="cart">
+        <div class="cart__products">
+            <table class="cart__products__table">
+                <thead class="cart__products__table__thead">
+                    <td class="cart__products__table__thead__td"></td>
+                    <td class="cart__products__table__thead__td">Product</td>
+                    <td class="cart__products__table__thead__td">Price</td>
+                    <td class="cart__products__table__thead__td">Quantity</td>
+                    <td class="cart__products__table__thead__td">Subtotal</td>
+                    <td class="cart__products__table__thead__td"></td>
+                </thead>
+                <tbody class="cart__products__table__tbody">
+                    <td class="cart__products__table__thead__t"><img src="./assets/images/cart-01.webp" alt="" class="cart__img"></td>
+                    <td class="cart__products__table__tbody__td"><span class="cart__gray">Asgaard sofa</span></td>
+                    <td class="cart__products__table__tbody__td"><span class="cart__gray">Rs. 250,000.00</span></td>
+                    <td class="cart__products__table__tbody__td"><span class="cart__number">1</span></td>
+                    <td class="cart__products__table__tbody__td"><span class="cart__price">Rs. 250,000.00</span></td>
+                    <td class="cart__products__table__tbody__td"><img src="./assets/images/trash.webp" alt=""></td>
+                </tbody>
+            </table>
+        </div>
+        <div class="cart__total">
+            <div class="cart__total__h3">Cart Totals</div>
+            <span class="cart__total__text">Subtotal<span class="cart__total__text__price1">Rs. 250,000.00</span></span>
+            <span class="cart__total__text">Total<span class="cart__total__text__price2">Rs. 250,000.00</span></span>
+            <button class="cart__total__button small__button rounded__button">Check Out</button>
+        </div>
+    </section>
+    <section class="aboutSection">
+        @@include("./_about.html",{
+        "img":"/assets/images/cup",
+        "alt":"Кубок",
+        "title":"High Quality",
+        "text":"Crafted from top materials"
+        })
+        @@include("./_about.html",{
+        "img":"./assets/images/verification",
+        "alt":"Галочка",
+        "title":"Warranty Protection",
+        "text":"Over 2 years"
+        })
+        @@include("./_about.html",{
+        "img":"./assets/images/chest",
+        "alt":"Сундук",
+        "title":"Free Shipping",
+        "text":"Order over 150 $"
+        })
+        @@include("./_about.html",{
+        "img":"./assets/images/support",
+        "alt":"Поддержка",
+        "title":"24 / 7 Support",
+        "text":"Dedicated support"
+        })
+    </section>
+</main>
+@@include("./_footer.html")
+</body>
+</html>

@@ -1,0 +1,35 @@
+.cart{
+  padding: var(--padding-container);
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-l);
+  &__products{
+    &__table{
+      &__thead{
+        background-color: var(--color-light-beige);
+        &__td{
+          padding: var(--padding-s);
+          font-weight: 600;
+        }
+      }
+      &__tbody{
+        &__td{
+          padding: var(--padding-s);
+        }
+      }
+    }
+  }
+  &__gray{
+    color: var(--color-light-gray);
+  }
+  &__number{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: gray solid 1px;
+  }
+  &__total{
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-xl);
+  }
+}
