@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+    <title>Product Comparison</title>
+</head>
+<body>
+@@include("./_header.html")
+@@include("./_page.html",{
+"title":"Product Comparison",
+"text":"Comparison",
+})
+<main>
+    <section class="comparison">
+        <table class="comparison__table">
+            <thead class="comparison__table__head">
+                <tr class="comparison__table__head__str">
+                    <th class="comparison__table__block">
+                        <h3 class="comparison__table__block__title">
+                            Go to Product page for more Products
+                        </h3>
+                        <a href="" class="comparison__table__head__str__block__link">View More</a>
+                    </th>
+
+                </tr>
+            </thead>
+        </table>
+    </section>
+    <section class="aboutSection">
+        @@include("./_about.html",{
+        "img":"/assets/images/cup",
+        "alt":"Кубок",
+        "title":"High Quality",
+        "text":"Crafted from top materials"
+        })
+        @@include("./_about.html",{
+        "img":"./assets/images/verification",
+        "alt":"Галочка",
+        "title":"Warranty Protection",
+        "text":"Over 2 years"
+        })
+        @@include("./_about.html",{
+        "img":"./assets/images/chest",
+        "alt":"Сундук",
+        "title":"Free Shipping",
+        "text":"Order over 150 $"
+        })
+        @@include("./_about.html",{
+        "img":"./assets/images/support",
+        "alt":"Поддержка",
+        "title":"24 / 7 Support",
+        "text":"Dedicated support"
+        })
+    </section>
+</main>
+@@include("./_footer.html")
+</body>
+</html>

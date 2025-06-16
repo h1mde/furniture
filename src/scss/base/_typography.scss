@@ -15,7 +15,13 @@ h3{
   color: var(--color-dark-gray);
   font-size: var(--font-h3);
 }
-
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
 
 
 .description{
