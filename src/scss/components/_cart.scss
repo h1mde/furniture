@@ -30,6 +30,29 @@
   &__total{
     display: flex;
     flex-direction: column;
-    padding: var(--padding-xl);
+    align-items: center;
+    gap: var(--gap-s);
+    padding: var(--padding-l);
+    background-color: var(--color-light-beige);
+    &__title{
+      margin-bottom: var(--padding-m);
+    }
+    &__text{
+      &__price1{
+        color: var(--color-light-gray);
+        margin-left: var(--padding-m);
+      }
+      &__price2{
+        color: var(--color-ocher);
+        font-size: var(--font-s);
+        margin-left: var(--padding-m);
+      }
+    }
+    &__button{
+      background-color: var(--color-light-beige);
+      border: 1px solid black;
+      margin-top: var(--padding-m);
+    }
   }
+
 }
