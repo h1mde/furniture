@@ -56,6 +56,77 @@
             }
         }
     }
+    &__animation{
+        display: flex;
+        position: absolute;
+        top: 175px;
+        left: 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--gap-m);
+        opacity: 0;
+        transition: all 0.3s ease;
+        z-index: 2;
+        &__button{
+            background-color: white;
+            &__button{
+                background: none;
+                border: none;
+                color: var(--color-ocher);
+                font-weight: 600;
+            }
+        }
+        &__block{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            gap: var(--gap-s);
+            &__link{
+                &__share::before{
+                    content: url("../images/share2.webp");
+                    margin-right: 5px;
+                }
+                &__like::before{
+                    content: url("../images/like.webp");
+                    margin-right: 5px;
+                }
+                &__compare::before{
+                    content: url("../images/arrows.webp");
+                    margin-right: 5px;
+                }
+
+                &__share{
+                    color: white;
+                    font-weight: 600;
+                }
+                &__like{
+                    color: white;
+                    font-weight: 600;
+                }
+                &__compare{
+                    color: white;
+                    font-weight: 600;
+
+                }
+            }
+        }
+    }
+}
+.product__card {
+
+    cursor: pointer;
+
+    &:hover {
+        .product__card__black {
+            filter: brightness(50%);
+            background-color: rgba(0,0,0,0.5);
+            transition: all 0.3s ease;
+        }
+        .product__card__animation {
+            opacity: 1;
+        }
+    }
 }
 
 .sale{
